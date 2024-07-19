@@ -1,0 +1,57 @@
+CREATE DATABASE VTA;
+CREATE TABLE STUDENT
+    -> (
+    -> MIS VARCHAR(25),
+    -> L_Name VARCHAR(50),
+    -> F_Name VARCHAR(50),
+    -> Home_No int,
+    -> Streat_Name varchar(20),
+    -> City varchar(20),Country varchar(20)
+    -> );
+ CREATE TABLE INSTRUCTOR
+    -> (
+    -> IN_ID VARCHAR(10),
+    -> F_Name VARCHAR(20),
+    -> L_Name VARCHAR(20),
+    -> SALARY DOUBLE(20,2),
+    -> AGE INT(10),
+    -> ADDRESS VARCHAR(50)
+    -> );
+CREATE TABLE COURSE
+    -> (
+    -> CL_ID VARCHAR(10),
+    -> NAME VARCHAR(20),
+    -> REGISTER_FEE DOUBLE(20,2),
+    -> DURATION VARCHAR(15));
+CREATE TABLE CLASS
+    -> (
+    -> CL_ID VARCHAR(10),
+    -> C_Name VARCHAR(20),
+    -> Place VARCHAR(20));
+CREATE TABLE SECTION
+    -> (
+    -> S_ID VARCHAR(10),
+    -> Name VARCHAR(20));
+CREATE TABLE ITEM
+    -> (
+    -> It_ID VARCHAR(10),
+    -> I_Name VARCHAR(20),
+    -> QUANTITY INT(10));
+CREATE TABLE BULLIDING
+    -> (
+    -> BU_ID VARCHAR(10),
+    -> Name VARCHAR(20),
+    -> Place VARCHAR(20));
+CREATE TABLE EMPLOYEE
+    -> (
+    -> E_ID VARCHAR(10),
+    -> F_Name VARCHAR(20),
+    -> L_Name VARCHAR(20),
+    -> AGE INT,
+    -> SALARY DOUBLE(20,2));
+CREATE TABLE VECHILE
+    -> (
+    -> VE_ID VARCHAR(10),
+    -> NAME VARCHAR(20),
+    -> VE_Type VARCHAR(20),
+    -> VE_Year YEAR);
